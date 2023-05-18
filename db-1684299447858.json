@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "firstName": "Sujith",
+      "lastName": " Reddy",
+      "id": "su@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345"
+    },
+    {
+      "firstName": "Akki",
+      "lastName": "Reddy",
+      "id": "Akki@tek.com",
+      "password": "akki",
+      "confirmPassword": "akki"
+    }
+  ],
+  "admins": []
+}

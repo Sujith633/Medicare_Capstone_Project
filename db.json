@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "firstName": "Sujith",
+      "lastName": " Reddy",
+      "id": "su@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345"
+    },
+    {
+      "firstName": "Akki",
+      "lastName": "Reddy",
+      "id": "Akki@tek.com",
+      "password": "akki",
+      "confirmPassword": "akki"
+    },
+    {
+      "firstName": "Latha",
+      "lastName": " Reddy",
+      "id": "latha@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456"
+    }
+  ],
+  "admins": [
+    {
+      "firstName": "Sujith",
+      "lastName": " Reddy",
+      "id": "su@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345"
+    }
+  ],
+  "products": [
+    {
+      "data1": {
+        "id": 4,
+        "name": "Polybian Syrup",
+        "des": "Heathy Syrup",
+        "price": 250,
+        "status": "In Stock"
+      },
+      "id": 1
+    },
+    {
+      "data1": {
+        "id": 5,
+        "name": "Balm 650",
+        "des": "Body Pains Cure",
+        "price": 90,
+        "status": "In Stock"
+      },
+      "id": 2
+    },
+    {
+      "data1": {
+        "id": 1,
+        "name": "Dolo 650",
+        "des": "Fever Cure",
+        "price": 99,
+        "status": "In Stock"
+      },
+      "id": 3
+    }
+  ]
+}
