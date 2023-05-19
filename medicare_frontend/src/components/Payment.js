@@ -25,7 +25,7 @@ const Payment = () => {
 
   const handlepay=()=>{
 
-    toast.success("Payment Successful")
+    toast.success("Payment Successful", {position: toast.POSITION.BOTTOM_CENTER});
   }  
   return (
     <>

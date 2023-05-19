@@ -20,6 +20,13 @@
       "id": "latha@gmail.com",
       "password": "123456",
       "confirmPassword": "123456"
+    },
+    {
+      "firstName": "Harshith",
+      "lastName": " Reddy",
+      "id": "Harshith@gmail.com",
+      "password": "sai04",
+      "confirmPassword": "sai04"
     }
   ],
   "admins": [

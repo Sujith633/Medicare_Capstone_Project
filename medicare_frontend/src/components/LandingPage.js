@@ -22,7 +22,7 @@ const LandingPage = () => {
   
   }
   const style1 = {
-    "backgroundImage": `url("images/img5.jpg")`,
+    "backgroundImage": `url("images/imgbg4.jpg")`,
     "backgroundRepeat": "no-repeat",
     "backgroundSize": "cover",
     position: "absolute",
@@ -31,9 +31,11 @@ const LandingPage = () => {
 }
 
 const textstyle = {
-  color: "#5ad958",
+  color: "red",
   paddingLeft: "4rem",
-  paddingTop: "4rem"
+  paddingTop: "4rem",
+    fontSize: "4rem",
+    fontStyle: "italic"
 }
 const textstyle2 = {
   color: "white",
@@ -47,13 +49,13 @@ const textstyle2 = {
       <h1>Welcome to Medicare</h1>
     </div>
     <div style={textstyle2}>
-      <h5>An Online Medical Platform</h5>
+      <h5>An Online Medical Pharmacy</h5>
       {/* <p>“Time and health are two precious assets that we don't recognize and appreciate until they have been depleted.”</p> */}
     </div>
     <div style={style}>
     
-      <button type="button" className="btn btn-info mx-2 my-2" onClick={navigateLogin}>AdminLogin</button>
-      <button type="button" className="btn btn-info mx-2 my-2" onClick={navigateAdminLogin}>User Login</button>
+      <button type="button" className="btn btn-primary mx-2 my-2" onClick={navigateLogin}>AdminLogin</button>
+      <button type="button" className="btn btn-dark mx-2 my-2" onClick={navigateAdminLogin}>User Login</button>
     </div>
     </div>
   )
